@@ -27,3 +27,14 @@ function calculadora($request){
     return json_encode($respuesta);
 
 }
+
+function PentagonoRegularArea($request){
+    
+    $datos=json_decode($request->getbody());
+
+    $longitud=$datos->longitud;
+
+    $area = 1.72084 * ($longitud * $longitud);
+
+    return json_encode($area);
+}

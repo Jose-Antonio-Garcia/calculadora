@@ -21,5 +21,6 @@ $app->group('/api', function () use ($app) {
    
     //REGISTROUSUARIOS
     $app->post('/calculadora','calculadora');
+    $app->put('/calculadora','PentagonoRegularArea');
 
 });
