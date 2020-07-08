@@ -23,5 +23,5 @@ $app->group('/api', function () use ($app) {
     $app->post('/calculadora','calculadora');
     $app->get('/calculadora','distancia');
     $app->put('/calculadora','PentagonoRegularArea');
-
+    $app->get('/calculadora','areacilindro');
 });
