@@ -25,5 +25,4 @@ $app->group('/api', function () use ($app) {
     $app->put('/calculadora','PentagonoRegularArea');
     $app->get('/areacilindro','areacilindro');
     $app->get('/trapecio','trapecio');
-    $app->get('/pitagoras','pitagoras');
 });
