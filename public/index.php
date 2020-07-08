@@ -44,6 +44,7 @@ include 'funciones/calculadora.php';
 include 'funciones/distancia.php';
 include 'funciones/pentagono.php';
 include 'funciones/16091065_area.php';
+include 'funciones/16091246_Trapecio.php';
 // Run app
 $app->run();
 
