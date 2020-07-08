@@ -27,3 +27,4 @@ function calculadora($request){
     return json_encode($respuesta);
 
 }
+

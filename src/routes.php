@@ -21,5 +21,7 @@ $app->group('/api', function () use ($app) {
    
     //REGISTROUSUARIOS
     $app->post('/calculadora','calculadora');
+    $app->get('/calculadora','distancia');
+    $app->put('/calculadora','PentagonoRegularArea');
 
 });
