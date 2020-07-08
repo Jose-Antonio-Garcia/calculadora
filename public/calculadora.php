@@ -42,7 +42,19 @@ function distancia($request){
     $b1 = $a1*$a1;
     $b2 = $a2*$a2;
 
-    $dist = sqrt($b1+$b2);
-    return json_encode($dist);
 
+    $dist->distancia = sqrt($b1+$b2);
+
+    return json_encode($dist);
+}
+
+function PentagonoRegularArea($request){
+    
+    $datos=json_decode($request->getbody());
+
+    $longitud=$datos->longitud;
+
+    $area->area = 1.72084 * ($longitud * $longitud);
+
+    return json_encode($area);
 }
