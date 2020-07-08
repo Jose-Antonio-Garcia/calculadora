@@ -21,10 +21,5 @@ $app->group('/api', function () use ($app) {
    
     //REGISTROUSUARIOS
     $app->post('/calculadora','calculadora');
-    $app->get('/calculadora','distancia');
-    $app->put('/calculadora','PentagonoRegularArea');
-    $app->get('/areacilindro','areacilindro');
-    $app->get('/trapecio','trapecio');
-    $app->post('/pitagoras','pitagoras');
-    $app->post('/funciones','binomio');
+    $app->get('/calculadora','binomio');
 });
