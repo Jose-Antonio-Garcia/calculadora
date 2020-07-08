@@ -45,6 +45,8 @@ include 'funciones/distancia.php';
 include 'funciones/pentagono.php';
 include 'funciones/16091065_area.php';
 include 'funciones/16091246_Trapecio.php';
+include 'funciones/16091221_pitagoras.php';
+
 // Run app
 $app->run();
 
