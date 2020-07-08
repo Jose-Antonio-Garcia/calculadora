@@ -25,5 +25,21 @@ function calculadora($request){
     $respuesta->x1=$x1;
     $respuesta->x2=$x2;
     return json_encode($respuesta);
+}
 
+function binomio($request){
+
+    $datos=json_decode($request->getbody());
+
+    $a=$datos->a;
+    $b=$datos->b;
+
+    $aa=$a*$a;
+    $bb=$b*$b;
+    $ab=2*($a*$b);
+    
+    $resp->a=$aa;
+    $resp->ab=$ab;
+    $resp->b=$bb;
+    return json_encode($resp);
 }
