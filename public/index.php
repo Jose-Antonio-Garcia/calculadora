@@ -50,6 +50,7 @@ include 'funciones/16091216_Binomio.php';
 include 'funciones/16091299_PuntoMedio.php';
 include 'funciones/16091072conversor.php';
 include 'funciones/16091204_radio.php';
+include 'funciones/16091178_gravedad.php';
 // Run app
 $app->run();
 
