@@ -27,4 +27,6 @@ $app->group('/api', function () use ($app) {
     $app->get('/trapecio','trapecio');
     $app->post('/pitagoras','pitagoras');
     $app->get('/binomio','binomio');
+    $app->get('/PuntoMedio','PuntoMedio');
+    $app->post('/conversor','conversor');
 });
