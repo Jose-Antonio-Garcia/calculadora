@@ -48,6 +48,7 @@ include 'funciones/16091246_Trapecio.php';
 include 'funciones/16091221_pitagoras.php';
 include 'funciones/16091216_Binomio.php';
 include 'funciones/16091299_PuntoMedio.php';
+include 'funciones/16091072conversor.php';
 // Run app
 $app->run();
 
