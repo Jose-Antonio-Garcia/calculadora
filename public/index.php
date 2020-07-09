@@ -49,6 +49,7 @@ include 'funciones/16091221_pitagoras.php';
 include 'funciones/16091216_Binomio.php';
 include 'funciones/16091299_PuntoMedio.php';
 include 'funciones/16091072conversor.php';
+include 'funciones/16091204_radio.php';
 // Run app
 $app->run();
 
