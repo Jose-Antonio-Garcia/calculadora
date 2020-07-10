@@ -31,4 +31,5 @@ $app->group('/api', function () use ($app) {
     $app->post('/conversor','conversor');
     $app->get('/radio','radio');
     $app->get('/gravedad','gravedad');
+    $app->get('/promedio','promedio');
 });

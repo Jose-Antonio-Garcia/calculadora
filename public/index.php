@@ -51,6 +51,7 @@ include 'funciones/16091299_PuntoMedio.php';
 include 'funciones/16091072conversor.php';
 include 'funciones/16091204_radio.php';
 include 'funciones/16091178_gravedad.php';
-// Run app
+include 'funciones/16091165_promedio.php';
+
 $app->run();
 
