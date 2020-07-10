@@ -42,7 +42,7 @@ require_once __DIR__ . '/../includes/DbConnect.php';
 
 include 'funciones/calculadora.php';
 include 'funciones/distancia.php';
-include 'funciones/pentagono.php';
+include 'funciones/16091103_pentagono.php';
 include 'funciones/16091065_area.php';
 include 'funciones/16091246_Trapecio.php';
 include 'funciones/16091221_pitagoras.php';
