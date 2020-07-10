@@ -27,6 +27,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/trapecio','trapecio');
     $app->post('/pitagoras','pitagoras');
     $app->get('/binomio','binomio');
+    $app->get('/areatrapecio','areatrapecio');
     $app->get('/PuntoMedio','PuntoMedio');
     $app->post('/conversor','conversor');
     $app->get('/radio','radio');
@@ -35,4 +36,5 @@ $app->group('/api', function () use ($app) {
     $app->get('/alumnos','gettodoslosalumnos');
     $app->get('/alumno','getalumno');
     $app->post('/alumno','setalumno');
+
 });
