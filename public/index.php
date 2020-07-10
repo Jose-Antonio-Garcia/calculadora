@@ -51,6 +51,7 @@ include 'funciones/16091299_PuntoMedio.php';
 include 'funciones/16091072conversor.php';
 include 'funciones/16091204_radio.php';
 include 'funciones/16091178_gravedad.php';
+include 'funciones/16091186_Aceleracion.php';
 // Run app
 $app->run();
 
