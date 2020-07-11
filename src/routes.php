@@ -39,6 +39,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/mruv','mruv');
     $app->get('/alumnos','gettodoslosalumnos');
     $app->get('/alumno','getalumno');
+    $app->get('/suma','suma');
     $app->post('/alumno','setalumno');
     
 

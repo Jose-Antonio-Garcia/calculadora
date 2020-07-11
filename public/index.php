@@ -58,6 +58,7 @@ include 'funciones/16091227_fuerza.php';
 include 'funciones/16091196_mruv.php';
 include 'funciones/15091080_velocidad.php';
 
+include 'funciones/16091198_suma.php';
 include 'funciones/alumnos.php';
 $app->run();
 
