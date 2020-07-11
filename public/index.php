@@ -55,6 +55,7 @@ include 'funciones/16091165_promedio.php';
 include 'funciones/16091105_areatrapecio.php';
 include 'funciones/16091130_cuadrado.php';
 include 'funciones/16091227_fuerza.php';
+include 'funciones/16091196_mruv.php';
 
 include 'funciones/alumnos.php';
 $app->run();
