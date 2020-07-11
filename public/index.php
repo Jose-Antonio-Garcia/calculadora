@@ -53,6 +53,7 @@ include 'funciones/16091204_radio.php';
 include 'funciones/16091178_gravedad.php';
 include 'funciones/16091165_promedio.php';
 include 'funciones/16091105_areatrapecio.php';
+include 'funciones/17090324_triangulo.php';
 
 include 'funciones/alumnos.php';
 $app->run();

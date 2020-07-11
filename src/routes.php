@@ -33,6 +33,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/radio','radio');
     $app->get('/gravedad','gravedad');
     $app->get('/promedio','promedio');
+    $app->get('/triangulo','triangulo');
     $app->get('/alumnos','gettodoslosalumnos');
     $app->get('/alumno','getalumno');
     $app->post('/alumno','setalumno');
