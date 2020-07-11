@@ -29,6 +29,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/binomio','binomio');
     $app->get('/areatrapecio','areatrapecio');
     $app->get('/cuadrado','cuadrado');
+    $app->get('/fuerza','fuerza');
     $app->get('/PuntoMedio','PuntoMedio');
     $app->post('/conversor','conversor');
     $app->get('/radio','radio');
