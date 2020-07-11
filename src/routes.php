@@ -37,6 +37,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/gravedad','gravedad');
     $app->get('/promedio','promedio');
     $app->get('/mruv','mruv');
+    $app->get('/triangulo','triangulo');
     $app->get('/alumnos','gettodoslosalumnos');
     $app->get('/alumno','getalumno');
     $app->get('/suma','suma');
