@@ -38,12 +38,14 @@ $app->group('/api', function () use ($app) {
     $app->get('/promedio','promedio');
     $app->get('/mruv','mruv');
     $app->get('/triangulo','triangulo');
-    $app->get('/alumnos','gettodoslosalumnos');
-    $app->get('/alumno','getalumno');
     $app->get('/suma','suma');
-    $app->post('/alumno','setalumno');
     $app->get('/circulo','circulo');
 
+    $app->post('/insert','setalumno');
+    $app->get('/selectall','gettodoslosalumnos');
+    $app->get('/select','getalumno');
+    $app->put('/update','updatealumno');
+    $app->delete('/delete','deletealumno');
     
 
 });
