@@ -1,5 +1,5 @@
 <?
-function areaTriangilo($request){
+function areatriangulo($request){
     $datos=json_decode($request->getbody());
 
     $b=$datos->b;

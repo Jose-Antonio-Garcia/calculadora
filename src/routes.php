@@ -43,7 +43,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/suma','suma');
     $app->post('/alumno','setalumno');
     $app->get('/circulo','circulo');
-    $app->get('/areaTriangulo','areaTriangulo');
+    $app->get('/areatriangulo','areatriangulo');
     
 
 });
