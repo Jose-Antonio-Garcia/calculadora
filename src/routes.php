@@ -46,6 +46,10 @@ $app->group('/api', function () use ($app) {
     $app->get('/select','getalumno');
     $app->put('/update','updatealumno');
     $app->delete('/delete','deletealumno');
+    $app->post('/alumno','setalumno');
+    $app->get('/productos','gettodoslosproductos');
+    $app->get('/producto','getproducto');
+    $app->post('/producto','setproducto');
     
 
 });
