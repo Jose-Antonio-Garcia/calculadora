@@ -61,5 +61,6 @@ include 'funciones/17090324_triangulo.php';
 
 include 'funciones/16091198_suma.php';
 include 'funciones/alumnos.php';
+include 'funciones/17091072_CRUD.php';
 $app->run();
 
