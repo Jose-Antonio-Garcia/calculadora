@@ -50,6 +50,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/productos','gettodoslosproductos');
     $app->get('/producto','getproducto');
     $app->post('/producto','setproducto');
+    $app->get('/areatriangulo','areatriangulo');
     
 
 });
