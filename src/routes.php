@@ -40,6 +40,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/triangulo','triangulo');
     $app->get('/suma','suma');
     $app->get('/circulo','circulo');
+    $app->get('/cilindro','cilindro');
 
     $app->post('/insert','setalumno');
     $app->get('/selectall','gettodoslosalumnos');
