@@ -27,5 +27,31 @@ $app->group('/api', function () use ($app) {
     $app->get('/trapecio','trapecio');
     $app->post('/pitagoras','pitagoras');
     $app->get('/binomio','binomio');
-    $app->post('/Circunferencia','Circunferencia');
+    $app->get('/areatrapecio','areatrapecio');
+    $app->get('/cuadrado','cuadrado');
+    $app->get('/fuerza','fuerza');
+    $app->get('/velocidad','velocidad');
+    $app->get('/PuntoMedio','PuntoMedio');
+    $app->post('/conversor','conversor');
+    $app->get('/radio','radio');
+    $app->get('/gravedad','gravedad');
+    $app->get('/promedio','promedio');
+    $app->get('/mruv','mruv');
+    $app->get('/triangulo','triangulo');
+    $app->get('/suma','suma');
+    $app->get('/circulo','circulo');
+    $app->get('/cilindro','cilindro');
+
+    $app->post('/insert','setalumno');
+    $app->get('/selectall','gettodoslosalumnos');
+    $app->get('/select','getalumno');
+    $app->put('/update','updatealumno');
+    $app->delete('/delete','deletealumno');
+    $app->post('/alumno','setalumno');
+    $app->get('/productos','gettodoslosproductos');
+    $app->get('/producto','getproducto');
+    $app->post('/producto','setproducto');
+    $app->get('/areatriangulo','areatriangulo');
+    
+
 });
