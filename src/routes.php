@@ -29,6 +29,7 @@ $app->group('/api', function () use ($app) {
     $app->delete('/delete','deletealumno');
     $app->post('/alumno','setalumno');
     $app->get('/usuario','setUsuario');
+    $app->post('/usuario','getUsuario');
     
 
 });
