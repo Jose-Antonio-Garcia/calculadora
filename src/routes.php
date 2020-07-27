@@ -42,6 +42,7 @@ $app->group('/api', function () use ($app) {
     $app->get('/alumno','getalumno');
     $app->get('/suma','suma');
     $app->post('/alumno','setalumno');
+    $app->post('/mongodb','uploadFile');
     
 
 });
